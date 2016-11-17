@@ -77,7 +77,7 @@ public class NewPost extends AppCompatActivity implements INewPostHandler {
 
             if (httpURLConnection.getResponseCode() == HttpURLConnection.HTTP_OK) {
             } else {
-                Log.e("TAG", "Deu merda. Código do erro: " + httpURLConnection.getResponseCode());
+                Log.e("TAG", "New Post Success! " + httpURLConnection.getResponseCode());
             }
 
         } catch (IOException e) {
